@@ -25,8 +25,12 @@ hr {
 /**Navbar Section change navbar color**/
 
 .navbar-fixed-top.scrolled {
-    background-color: #5bc0de !important;
+    background-color: #18A2B8 !important;
     transition: background-color 200ms linear;
+}
+
+#navbarNav a:hover, #footer .link-hover:hover {
+    text-shadow: 0px 0px 12px #000000;
 }
 
 /**Logo size**/
@@ -95,13 +99,31 @@ h5 {
     height: 9.375rem;
 }
 
-/*Footer Section*/
+/*Go up button*/
 
-.footer-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 1.875rem;
-    text-align: center;
+#button-up {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #1592a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 1.25rem;
+    position: fixed;
+    bottom: 1.5625rem;
+    left: 1.5625rem;
+    cursor: pointer;
+    border: 0.25rem solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#button-up:hover {
+    transform: scale(1.1);
+    border-color: rgba(0, 0n, 0, 1);
+    box-shadow: 0rem 0rem 1.5625rem 0rem rgba(0, 0, 0, 0.69);
 }
 
 /*Contact style*/
@@ -111,8 +133,23 @@ h5 {
 }
 
 .contact-typeform {
-    width: 80%; 
+    width: 80%;
     height: 31.25rem;
+}
+
+/*Footer Section*/
+
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.875rem;
+    text-align: center;
+}
+
+.link-hover:hover {
+    transform: scale(1.1);
+    border-color: rgba(0, 0n, 0, 1);
+    transition: all 300ms ease;
 }
 
 /*Opacity show scroll effect and move up*/
