@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Chile</title>
+    <meta name="autors name" content="Felipe Martinez">
+    <meta name="keywords" content="viajes, turismo, Chile">
+    <link rel="icon" href="assets/img/viajes.svg">
+    <!--CCS Bootstrap 4.6.0-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+    <!--Font Awesome 5.8.1-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <!--My CCS Style-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <!--Navbar Logo and title-->
+        <nav id="navbar" class="navbar navbar-expand-lg bg-transparent navbar-dark fixed-top px-4 navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="logo-img" src="assets/img/viajes.svg" alt="logo" />
+                </a>
+                <a class="navbar-brand" href="#">Viajes Chile</a>
+                <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!--Navigation bar sections-->
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active ml-3">
+                            <a class="nav-link scroll" href="#img-carousel">Inicio</a>
+                        </li>
+
+                        <li class="nav-item ml-3">
+                            <a class="nav-link scroll" href="#about">Quienes Somos</a>
+                        </li>
+
+                        <li class="nav-item ml-3">
+                            <a class="nav-link scroll" href="#featured">Destacados</a>
+                        </li>
+
+                        <li class="nav-item ml-3">
+                            <a class="nav-link scroll" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <!--Carousel Section-->
+        <div id="img-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <!--IMG1-->
+                <div class="carousel-item active" data-interval="3200">
+                    <img class="img-fluid d-block w-100" src="assets/img/carousel1.jpg" alt="Desierto">
+                </div>
+                <!--IMG2-->
+                <div class="carousel-item" data-interval="3200">
+                    <img class="img-fluid d-block w-100" src="assets/img/carousel2.jpg" alt="Isla de Pascua">
+                </div>
+                <!--IMG3-->
+                <div class="carousel-item" data-interval="3200">
+                    <img class="img-fluid d-block w-100" src="assets/img/carousel3.jpg" alt="Pingüino">
+                </div>
+            </div>
+
+            <!--Carousel Buttons-->
+            <a class="carousel-control-prev" href="#img-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#img-carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+    <article>
+
+        <!--About Section-->
+        <section id="about" class="container-fluid inline-block justify-content-center d-none d-lg-block pt-2 pb-5">
+            <h2 class="text-white text-center title-lg pt-4 pb-1">¿Quienes somos?</h2>
+            <hr class="border border-info bg-info">
+            <div class="row text-white text-center pt-3">
+
+                <!--Favicon Plane-->
+                <div class="col-12 col-lg-4 ani_box">
+                    <div class="py-2 justify-content-center bg-info">
+                        <i class="fas fa-plane fa-2x" data-toggle="tooltip" data-placement="top" title="Vuelos">
+                        </i>
+                    </div>
+                    <p class="text-sm pt-3 pb-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non ligula ipsum. Fusce sit
+                        amet
+                        vulputate odio. Fusce id pellentesque nunc, at feugiat nisi. Donec vestibulum orci hendrerit
+                        eros
+                        porta, nec lacinia ante rhoncus. Morbi efficitur gravida tincidunt. Integer lacinia vitae dui
+                        sed
+                        malesuada. Sed pulvinar augue nec condimentum imperdiet. Vestibulum id facilisis metus, vel
+                        tempus
+                        sem. Praesent cursus, sem id faucibus posuere, tellus nisl gravida augue, congue mollis dui nunc
+                        quis magna. Aenean ultrices velit diam, eu malesuada lacus mollis at. Phasellus mi turpis,
+                        placerat
+                        non velit vitae, malesuada feugiat orci. Etiam facilisis pretium ligula semper malesuada. Fusce
+                        pretium vulputate libero.
+                    </p>
+                </div>
+
+                <!--Favicon Mountain-->
+                <div class="col-12 col-lg-4 d-none d-lg-block ani_box">
+                    <p class="text-sm pb-1">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non ligula ipsum. Fusce sit
+                        amet
+                        vulputate odio. Fusce id pellentesque nunc, at feugiat nisi. Donec vestibulum orci hendrerit
+                        eros
+                        porta, nec lacinia ante rhoncus. Morbi efficitur gravida tincidunt. Integer lacinia vitae dui
+                        sed
+                        malesuada. Sed pulvinar augue nec condimentum imperdiet. Vestibulum id facilisis metus, vel
+                        tempus
+                        sem. Praesent cursus, sem id faucibus posuere, tellus nisl gravida augue, congue mollis dui nunc
+                        quis magna. Aenean ultrices velit diam, eu malesuada lacus mollis at. Phasellus mi turpis,
+                        placerat
+                        non velit vitae, malesuada feugiat orci. Etiam facilisis pretium ligula semper malesuada. Fusce
+                        pretium vulputate libero.
+                    </p>
+                    <div class="py-2 justify-content-center bg-info">
+                        <i class="fas fa-mountain fa-2x" data-toggle="tooltip" data-placement="bottom"
+                            title="Montañismo">
+                        </i>
+                    </div>
+                </div>
+
+                <!--Favicon Route-->
+                <div class="col-12 col-lg-4 ani_box">
+                    <div class="py-2 justify-content-center bg-info">
+                        <i class="fas fa-route fa-2x" data-toggle="tooltip" data-placement="top" title="Ruteo">
+                        </i>
+                    </div>
+                    <p class="text-sm pt-3 pb-2">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus non ligula ipsum. Fusce sit
+                        amet
+                        vulputate odio. Fusce id pellentesque nunc, at feugiat nisi. Donec vestibulum orci hendrerit
+                        eros
+                        porta, nec lacinia ante rhoncus. Morbi efficitur gravida tincidunt. Integer lacinia vitae dui
+                        sed
+                        malesuada. Sed pulvinar augue nec condimentum imperdiet. Vestibulum id facilisis metus, vel
+                        tempus
+                        sem. Praesent cursus, sem id faucibus posuere, tellus nisl gravida augue, congue mollis dui nunc
+                        quis magna. Aenean ultrices velit diam, eu malesuada lacus mollis at. Phasellus mi turpis,
+                        placerat
+                        non velit vitae, malesuada feugiat orci. Etiam facilisis pretium ligula semper malesuada. Fusce
+                        pretium vulputate libero.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!--Featured Section-->
+        <section id="featured" class="container-fluid pt-2 pb-5">
+            <h2 class="text-white text-center title-lg pt-4 pb-1">Destacados</h2>
+            <hr class="border border-info bg-info">
+            <div class="row justify-content-center text-center mb-2">
+
+                <div class="col-mg-3 mx-3 my-3">
+                    <div class="card bg-info text-white border border-light text-left">
+                        <img src="assets/img/card1.jpg" class="card-img-top card-img-size" alt="Lago">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                            <p class="card-text pt-4">
+                                Lorem ipsum dolor sit...
+                            </p>
+
+                            <!--Button Modal-->
+                            <button type="button" class="btn btn-outline-light mt-4" data-toggle="modal"
+                                data-target="#modal-lake">Ver mas...</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal-lake" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content  text-dark">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Lorem ipsum dolor sit amet</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="img-fluid" src="assets/img/card1.jpg" alt="Lago">
+                                            <p class="card-text pt-4">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod
+                                                tempor incidicunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-info"
+                                                data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-mg-3 mx-3 my-3">
+                    <div class="card bg-info text-white border border-light text-left">
+                        <img src="assets/img/card2.jpg" class="card-img-top card-img-size" alt="Montañas">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Consectetus adipisicing elit</h5>
+                            <p class="card-text pt-4">
+                                Lorem ipsum dolor sit...
+                            </p>
+
+                            <!--Button Modal-->
+                            <button type="button" class="btn btn-outline-light mt-4" data-toggle="modal"
+                                data-target="#modal-mountain">Ver mas...</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal-mountain" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content  text-dark">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Consectetus adipisicing
+                                                elit</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="img-fluid" src="assets/img/card2.jpg" alt="Montañas">
+                                            <p class="card-text pt-4">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod
+                                                tempor incidicunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-info"
+                                                data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-mg-3 mx-3 my-3">
+                    <div class="card bg-info text-white border border-light text-left">
+                        <img src="assets/img/card3.jpg" class="card-img-top card-img-size" alt="Desierto">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Sed do eiusmod tempor incidunt ut labore</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit...
+                            </p>
+
+                            <!--Button Modal-->
+                            <button type="button" class="btn btn-outline-light mt-4" data-toggle="modal"
+                                data-target="#modal-desert">Ver mas...</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal-desert" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content  text-dark">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Sed do eiusmod tempor incidunt ut labore</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="img-fluid" src="assets/img/card3.jpg" alt="Desierto">
+                                            <p class="card-text pt-4">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod
+                                                tempor incidicunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-info"
+                                                data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-mg-3 mx-3 my-3">
+                    <div class="card bg-info text-white border border-light text-left">
+                        <img src="assets/img/card4.jpg" class="card-img-top card-img-size" alt="Bosque">
+                        <div class="card-body">
+                            <h5 class="card-title font-weight-bold">Ut enim ad minim veniam</h5>
+                            <p class="card-text pt-4">
+                                Lorem ipsum dolor sit...
+                            </p>
+
+                            <!--Button Modal-->
+                            <button type="button" class="btn btn-outline-light mt-4" data-toggle="modal"
+                                data-target="#modal-forest">Ver mas...</button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="modal-forest" data-backdrop="static" data-keyboard="false"
+                                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content  text-dark">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="staticBackdropLabel">Ut enim ad minim veniam</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img class="img-fluid" src="assets/img/card4.jpg" alt="Lago">
+                                            <p class="card-text pt-4">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. sed do eiusmod
+                                                tempor incidicunt ut labore et dolore magna aliqua.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-info"
+                                                data-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </article>
+
+    <!--Typeform Section-->
+
+    <div id="contact" class="typeform-widget"
+        data-url="https://form.typeform.com/to/VufMBkr2?typeform-medium=embed-snippet"
+        style="width: 100%; height: 500px;"></div>
+    <script> (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()</script>
+
+    <!--Footer Section-->
+    <footer id="footer" class="bg-info">
+
+        <div class="container">
+            <div class="row pt-4">
+                <div class="col-lg-6 d-none d-lg-block text-white">
+                    <p class="footer-text">
+                        VIAJES CHILE
+                    </p>
+                </div>
+
+                <!--RRSS-->
+                <div class="col-12 col-lg-6 text-white text-center pt-1 pb-4">
+                    <a href="https://github.com/" target="_blank">
+                        <i class="fab fa-github-square fa-2x text-white px-2"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x fa-2x text-white px-2"></i>
+                    </a>
+
+                    <a href="https://twitter.com/?lang=es" target="_blank">
+                        <i class="fab fa-twitter-square fa-2x text-white px-2"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x text-white px-2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+    <!--JQuery JS 3.6.0-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!--Popper JS 1.16.1-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+
+    <!--Bootstrap JS 4.6.0-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+    <!--My Script JS-->
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+</body>
+
+</html>
