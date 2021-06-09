@@ -60,6 +60,10 @@ p, .row {
     text-align: justify;
 }
 
+.scroll-title {
+    margin-top: 2.1875rem;
+}
+
 .tooltip-inner {
     background-color: #373A3C;
     font-size: 1.125rem;
@@ -103,7 +107,7 @@ h5 {
 /*Contact style*/
 
 #contact {
-    width: 100%; 
+    width: 100.625rem; 
     height: 31.25rem;
 }
 
