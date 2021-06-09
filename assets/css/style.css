@@ -45,7 +45,7 @@ hr {
 /**About Section Styles**/
 
 #about {
-    width: 90%;
+    width: 80%;
 }
 
 h2 {
@@ -72,7 +72,7 @@ p, .row {
 /*Featured Section*/
 
 #featured {
-    width: 90%;
+    width: 80%;
 }
 
 h5 {
@@ -106,8 +106,12 @@ h5 {
 
 /*Contact style*/
 
-#contact {
-    width: 100.625rem; 
+#contact hr {
+    width: 80%;
+}
+
+.contact-typeform {
+    width: 80%; 
     height: 31.25rem;
 }
 
