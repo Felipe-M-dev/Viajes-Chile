@@ -83,7 +83,7 @@ $(document).ready(function () {
         }
     });
 
-    /**Change opacity style and show up by scroll**/
+    /**Change opacity style and show up by scroll in the first charge of page**/
 
     let ani_box = document.querySelectorAll(".ani_box");
 
@@ -100,5 +100,25 @@ $(document).ready(function () {
     }
 
     window.addEventListener('scroll', showScroll);
+
+    /**Toggle text in about section**/
+    
+    $(document).ready(function () {
+        $("#favicon-toggle1").click(function () {
+            $("#p_text1").toggle("slow");
+        });
+    });
+
+    $(document).ready(function () {
+        $("#favicon-toggle2").click(function () {
+            $("#p_text2").toggle("slow");
+        });
+    });
+
+    $(document).ready(function () {
+        $("#favicon-toggle3").click(function () {
+            $("#p_text3").toggle("slow");
+        });
+    });
 
 });
