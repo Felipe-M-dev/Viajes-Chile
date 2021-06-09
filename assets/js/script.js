@@ -101,7 +101,4 @@ $(document).ready(function () {
 
     window.addEventListener('scroll', showScroll);
 
-    $('#myModal').on('shown.bs.modal', function () {
-        $('#myInput').trigger('focus')
-    })
 });
