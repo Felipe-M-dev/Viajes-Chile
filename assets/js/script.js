@@ -92,7 +92,7 @@ $(document).ready(function () {
             document.documentElement.scrollTop;
         for (var i = 0; i < ani_box.length; i++) {
             let height_animate = ani_box[i].offsetTop;
-            if (height_animate - 400 < scrollTop) {
+            if (height_animate - 600 < scrollTop) {
                 ani_box[i].style.opacity = 1;
                 ani_box[i].classList.add("show_up");
             }
