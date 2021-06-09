@@ -1,6 +1,6 @@
 Exámen Final
 
-Visit: https://felipe-m-dev.github.io/Viajes_Chile/
+Visit: https://felipe-m-dev.github.io/Viajes-Chile/
 
 Resources:
 
