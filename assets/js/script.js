@@ -102,7 +102,7 @@ $(document).ready(function () {
     window.addEventListener('scroll', showScroll);
 
     /**Toggle text in about section**/
-    
+
     $(document).ready(function () {
         $("#favicon-toggle1").click(function () {
             $("#p_text1").toggle("slow");
@@ -125,24 +125,24 @@ $(document).ready(function () {
 
     document.getElementById("button-up").addEventListener("click", scrollUp);
 
-    function scrollUp(){
+    function scrollUp() {
         var currentScroll = document.documentElement.scrollTop;
         if (currentScroll > 0) {
             window.requestAnimationFrame(scrollUp);
-            window.scrollTo (0, currentScroll - (currentScroll / 20));
+            window.scrollTo(0, currentScroll - (currentScroll / 20));
             buttonUP.style.transform = "scale(0)";
         }
     }
 
     buttonUP = document.getElementById("button-up");
 
-    window.onscroll = function() {
+    window.onscroll = function () {
         var scroll = document.documentElement.scrollTop;
         if (scroll > 500) {
             buttonUP.style.transform = "scale(1)";
-        }else if (scroll = 500) {
+        } else if (scroll = 500) {
             buttonUP.style.transform = "scale(0)";
         }
     }
-  
+
 });
