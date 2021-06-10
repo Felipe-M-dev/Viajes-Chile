@@ -113,7 +113,7 @@ h5 {
     border-radius: 50%;
     font-size: 1.25rem;
     position: fixed;
-    bottom: 1.5625rem;
+    bottom: 3.125rem;
     left: 1.5625rem;
     cursor: pointer;
     border: 0.25rem solid transparent;
@@ -161,7 +161,7 @@ h5 {
 }
 
 .show_up {
-    animation: show_up 0.5s;
+    animation: show_up 1s;
 }
 
 @keyframes show_up {
